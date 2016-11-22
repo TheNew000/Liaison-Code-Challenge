@@ -1,0 +1,28 @@
+.left{
+    padding-left: 0px;
+}
+
+.yellow {
+    background-color: #F7CE5B;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.black {
+    background-color: #24272B;
+    min-height: 50vh;
+}
+
+.yellow-font {
+    color: #F7CE5B;
+}
+
+.form-margin{
+    margin-top: 5%;
+}
+
+.avatar{
+    max-width: 150px;
+    max-height: 150px;
+}
