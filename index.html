@@ -10,6 +10,7 @@
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="directives/user-card.js"></script>
 </head>
 
 <body ng-controller="gcCtrl">
@@ -31,17 +32,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 right">
         <div class="row" ng-repeat="user in results track by $index">
-            <h4>{{user.index}}. {{user.login}}</h4>
-            <div class="col-md-3">
-                <img class="avatar" src="{{user.avatar}}" alt="User Image">
-            </div>
-            <div class="caption col-md-8">
-                <p>Bio: {{user.bio}}</p>
-                <p>Location: {{user.location}}</p>
-                <p>Email: {{user.email}}</p>
-            </div>
+            <user-card></user-card>
         </div>
 
     </div>

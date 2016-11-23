@@ -1,5 +1,18 @@
+h5:first-of-type{
+    margin-top: 0px;
+}
+
+h5{
+    text-decoration: underline;
+}
+
 .left{
     padding-left: 0px;
+}
+
+.right{
+    overflow: auto;
+    height: 100vh;
 }
 
 .yellow {
@@ -16,6 +29,10 @@
 
 .yellow-font {
     color: #F7CE5B;
+}
+
+.grey-font{
+    color: #DDDDDD;
 }
 
 .form-margin{
