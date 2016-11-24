@@ -1,6 +1,6 @@
 #Liaison Coding Challenge!
 
-![Screen Shot](https://github.com/adam-p/markdown-here/../master/css/img/screenshot.png "An exact replica!")
+![Screen Shot](../master/css/img/screenshot.png "An exact replica!")
 
 ##Objective:
 Complete the coding challenge in 3 hours.
